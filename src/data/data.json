@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ava Thompson",
+      "email": "ava.thompson@example.com",
+      "age": 29,
+      "isActive": true,
+      "role": "admin",
+      "address": {
+        "street": "142 Maple Street",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97201"
+      },
+      "tags": ["early-adopter", "beta-tester"],
+      "createdAt": "2024-01-15T09:23:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Liam Chen",
+      "email": "liam.chen@example.com",
+      "age": 34,
+      "isActive": false,
+      "role": "editor",
+      "address": {
+        "street": "88 Oak Avenue",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "73301"
+      },
+      "tags": ["premium"],
+      "createdAt": "2023-11-02T14:05:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Sofia Rossi",
+      "email": "sofia.rossi@example.com",
+      "age": 41,
+      "isActive": true,
+      "role": "viewer",
+      "address": {
+        "street": "5 Via Roma",
+        "city": "Milan",
+        "state": null,
+        "zip": "20121"
+      },
+      "tags": [],
+      "createdAt": "2024-06-30T18:47:00Z"
+    }
+  ],
+  "meta": {
+    "total": 3,
+    "page": 1,
+    "perPage": 10
+  }
+}
