@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-fastapi-app = "fastapi_app:main"
+fastapi-app = "fastapi_app.main:main"
 
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]

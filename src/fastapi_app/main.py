@@ -1,4 +1,5 @@
-from fastapi import Depends, FastAPI, HTTPException
+from fastapi import Depends, FastAPI, Form, HTTPException
+import uvicorn
 from fastapi_app.database import db
 from .models.auth import Token, LoginRequest
 from .models.user import User
@@ -41,3 +42,11 @@ def login(username: str = Form(...), password: str = Form(...)):
 def read_current_user(current_user: dict = Depends(get_current_user)):
     print
     return current_user
+
+
+def main():
+    uvicorn.run("fastapi_app.main:app", host="127.0.0.1", port=8000)
+
+
+if __name__ == "__main__":
+    main()
